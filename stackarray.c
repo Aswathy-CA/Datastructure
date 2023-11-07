@@ -26,7 +26,7 @@ void menu(){
 		case 5:exit(1);
 	}
 }
-void push(int item)
+void push()
 {
 	if(top!=n-1){
 	printf("Enter the element to be pushed:");
