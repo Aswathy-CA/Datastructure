@@ -27,7 +27,7 @@ void menu()
 		case 5:exit(1);
 	}
 }
-void enqueue(int item)
+void enqueue()
 {
 	if(rear!=n-1)
 	{
