@@ -17,7 +17,7 @@ void create()
 	new = (struct node *)malloc(sizeof(struct node));
 	if (new == NULL)
 	{
-		printf("List is empty");
+		printf("Not able to push the element");
 	}
 	else
 	{
